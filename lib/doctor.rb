@@ -13,7 +13,8 @@ class Doctor
     @@doctors
   end
   
-  def new_appointment
-    
+  def new_appointment(patient, date)
+    appt = Appointment.new()
+    self.songs.last
   end
 end
